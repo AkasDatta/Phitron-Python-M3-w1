@@ -1,0 +1,3 @@
+total line: 6
+ total number of words:14
+ total number of characters :57
