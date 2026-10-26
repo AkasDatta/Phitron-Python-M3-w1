@@ -10,3 +10,27 @@ for number in numbers:
     result.append(number)
 
 print(result)
+
+
+# Ans to the qustion no 2
+
+def adder(x, y):
+  return x + y
+
+def compute_ratio(x,y):
+   # adder function added
+  try:
+    result= adder(x,y)/ (x*y)
+
+  except ZeroDivisionError:
+    print("Error: Division not possible")
+
+  else:
+    print(result)
+
+
+
+x, y = input().split()
+x,y = int(x),int(y)
+
+compute_ratio(x, y)
