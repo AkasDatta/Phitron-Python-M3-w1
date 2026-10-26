@@ -1,4 +1,4 @@
-# Ans to the qustion no 1 
+# Ans to the question no 1 
 
 numbers = input(). split()
 
@@ -36,7 +36,7 @@ x,y = int(x),int(y)
 compute_ratio(x, y)
 
 
-# Ans to the qustion no 3
+# Ans to the question no 3
 with open ("./sample_data/data.txt", "w") as file:
   file.write("Python is wonderful language for maching learning")
 
@@ -63,3 +63,23 @@ with open("./sample_data/data.txt", "r" ) as file:
       break
 
     print(boro_word)
+
+
+
+
+# Ans to the question no 4
+
+sentence = input("Enter sentence: ")
+
+words = sentence. split()
+
+vowels = ["a", "e","i", "o","u"]
+
+vowel_words = []
+
+# vowel_words = list(map(lambda x : x[0].lower(),x))
+for x in words:
+  if x[0].lower() in vowels:
+    vowel_words.append(x)
+
+print(vowel_words)
