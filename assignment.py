@@ -83,3 +83,25 @@ for x in words:
     vowel_words.append(x)
 
 print(vowel_words)
+
+
+
+# Ans to the question no 5
+
+word = input("Enter word: ")
+
+word = word.lower()
+# reverse
+reverse_word =""
+
+for letter in word:
+  reverse_word= letter + reverse_word
+
+print(reverse_word)
+
+# palendrome check korbo
+if word == reverse_word:
+  print("Palendome")
+
+else:
+  print("Not Palendrome")
