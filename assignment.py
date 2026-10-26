@@ -1,0 +1,1 @@
+# Ans to the qustion no 1 
